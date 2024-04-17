@@ -15,7 +15,7 @@ const router=createBrowserRouter(createRoutesFromElements(
              <Route path='/' element={<Layout />} >
             
             
-            <Route path='/' element={<App />} />
+            <Route path='/RAUTECHA_SWARAJY' element={<App />} />
 
 
 
