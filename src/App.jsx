@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    {/* <div className='text-9xl'>Hi hello Lavdu</div> */}
+    <div className='text-9xl'>Hi hello Lavdu</div>
     </>
   )
 }
