@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className='flex justify-around self-center nav'>
       <div className=' m-4 self-center'>
       <Link to="/" className="">
-                       <img src="/Images/RAUTECHA_SWARAJY_LOGO-removebg.png" alt=""  className='size-24' />
+                       <img src="./Images/RAUTECHA_SWARAJY_LOGO-removebg.png" alt=""  className='size-24' />
          </Link>
  
 

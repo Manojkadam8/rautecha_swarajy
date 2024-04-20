@@ -12,10 +12,10 @@ import App from './App.jsx'
 const router=createBrowserRouter(createRoutesFromElements(
               
   
-             <Route path='/' element={<Layout />} >
+             <Route path='/rautecha_swarajy/' element={<Layout />} >
             
             
-            <Route path='/app' element={<App />} />
+            <Route path='/rautecha_swarajy/' element={<App />} />
 
 
 
