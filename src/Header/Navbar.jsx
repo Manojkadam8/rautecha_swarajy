@@ -1,46 +1,42 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
-import { Link, NavLink } from 'react-router-dom'
+
+import { useMediaQuery } from "react-responsive";
+import BigScreen from '../Components/headerRsive/BigScreen/BigScreen';
 
 const Navbar = () => {
+  const isMobileDevice = useMediaQuery({
+    query: "(min-device-width: 480px)",
+  });
+
+  const isTabletDevice = useMediaQuery({
+    query: "(min-device-width: 768px)",
+  });
+
+  const isLaptop = useMediaQuery({
+    query: "(min-device-width: 1024px)",
+  });
+
+  const isDesktop = useMediaQuery({
+    query: "(min-device-width: 1200px)",
+  });
+
+  const isBigScreen = useMediaQuery({
+    query: "(min-device-width: 1201px )",
+  });
+
   return (
     <>
-   <header className=''>
-    <nav className='flex justify-around self-center nav'>
-      <div className=' m-4 self-center'>
-      <Link to="/" className="">
-                       <img src="./Images/RAUTECHA_SWARAJY_LOGO-removebg.png" alt=""  className='size-24' />
-         </Link>
- 
+   {/* {isMobileDevice && <Mobile />}
+  {isTabletDevice && <>
+  <TabletMobile />
+  {isDesktop && <Desktop />}
+  {isLaptop && <Laptop />} */}
+  {isBigScreen && <BigScreen />}
 
-      </div>
-      <div className=' my-11 self-center'>
-      <NavLink to="/" className="m-5">
-                       Home
-         </NavLink>
-      <NavLink to="/" className="m-5">
-                       About
-         </NavLink>
-      <NavLink to="/" className="m-5">
-                       Contact Us
-         </NavLink>
- 
 
-      </div>
+</>
 
-      <div className='m-4 self-center'>
-      <NavLink to="/" className="m-5 mbutton-1 ">
-                       Log In
-         </NavLink>
- 
-         <NavLink to="/" className="m-5 mbutton-1 ">
-                       Sign Up
-         </NavLink>
-
-      </div>
-    </nav>
-   </header>
-    </>
   )
 }
 

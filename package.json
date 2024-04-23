@@ -2,7 +2,7 @@
   
   "name": "reactrouterproject",
   
- "homepage": "https://manojkadam8.github.io/rautecha_swarajy",
+  "homepage": "https://manojkadam8.github.io/rautecha_swarajy",
   
   "private": true,
   
@@ -18,10 +18,11 @@
     
   "build": "vite build",
   
+    
   "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist",
- 
-
+  
+    
+  "deploy": "gh-pages -d dist",
   
     
   "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -49,7 +50,13 @@
   "react-dom": "^18.2.0",
   
     
+  "react-icons": "^5.1.0",
+  
+    
   "react-infinite-scroll-component": "^6.1.0",
+  
+    
+  "react-responsive": "^10.0.0",
   
     
   "react-router-dom": "^6.21.2",
