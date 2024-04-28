@@ -207,8 +207,8 @@ body{
   justify-content: center;
   align-items: center;
   width: 85%;
-  position: absolute;
-  top: -1px;
+  position: relative;
+  top: 35px;
   right: 0;
   padding-left: 16px;
        
