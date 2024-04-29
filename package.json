@@ -2,7 +2,7 @@
   
   "name": "reactrouterproject",
   
-  "homepage": "https://manojkadam8.github.io/rautecha_swarajy",
+ 
   
   "private": true,
   
@@ -19,10 +19,8 @@
   "build": "vite build",
   
     
-  "predeploy": "npm run build",
-  
-    
-  "deploy": "gh-pages -d dist",
+ 
+
   
     
   "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

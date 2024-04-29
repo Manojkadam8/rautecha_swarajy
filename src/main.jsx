@@ -15,7 +15,7 @@ const router=createBrowserRouter(createRoutesFromElements(
              <Route path='/rautecha_swarajy/' element={<Layout />} >
             
             
-            <Route path='/rautecha_swarajy/' element={<App />} />
+            <Route path='/rautecha_swarajy/app' element={<App />} />
 
 
 
@@ -27,5 +27,5 @@ const router=createBrowserRouter(createRoutesFromElements(
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <RouterProvider router={router} />
-  </React.StrictMode>,
+  </React.StrictMode>
 )
