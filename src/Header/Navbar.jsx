@@ -33,7 +33,7 @@ setOpenclass("right-100")
          </div>
          <hr />
       <div className='header-menu '>
-      <NavLink to="/" className="">
+      <NavLink to="/rautecha_swarajy/app" className="">
                        Home
          </NavLink>
       <NavLink to="/" className="">
